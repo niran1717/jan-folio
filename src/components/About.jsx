@@ -46,7 +46,7 @@ function About() {
           <h3 className="text-4xl font-serif text-shadow-lg font-extrabold text-gray-900 mb-8">
             ABOUT ME
           </h3>
-          <p className="text-lg text-shadow-sm font-serif font-medium text-black leading-relaxed mb-6 text-justify">
+          <p className="text-lg text-shadow-sm font-serif text-black leading-relaxed mb-6 text-justify">
             Hi, I’m Niranjan - Master’s student in <strong>Autonomy Engineering</strong> at Purdue University, passionate about building intelligent systems that scale.
 
             Where others see code and cloud as separate worlds, I see a synergy. I’ve used <strong>Large Language Models</strong> to steer decision-making in autonomous vehicles, fine-tuned on 200K+ real-world scenarios. But what hooked me wasn’t just the AI; it was the <strong>infrastructure</strong> behind the intelligence. That fascination drew me deeper into AWS, where I now build scalable, resilient solutions that can deliver ML insights in real time. I’m certified in <strong>AWS</strong> (Certified Cloud Practitioner), skilled in deploying ML workflows, and always exploring the edge between innovation and production-ready systems.
