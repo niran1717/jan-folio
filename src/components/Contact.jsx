@@ -13,12 +13,12 @@ function Contact() {
           <h3 className="text-4xl font-serif text-shadow-lg font-extrabold text-black mb-6">
             GET IN TOUCH
           </h3>
-          <p className="text-xl text-shadow-sm text-justify font-serif font-medium text-black leading-relaxed mb-8"> {/* Removed text-justify to align left */}
+          <p className="text-xl text-shadow-md font-serif text-black leading-relaxed text-justify mb-8"> {/* Removed text-justify to align left */}
             I'm always up for a good conversation. Whether it's a groundbreaking project, a potential collab, or just to share your most hilarious debugging story, my inbox is open. (And yes, I actually read them.)
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6"> {/* Changed justify-center to justify-start */}
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:nparamas@purdue.edu"
               className="inline-block bg-black text-white px-5 py-2 rounded-lg text-sm sm:text-lg font-mono font-bold
                          hover:bg-gray-800 transition-all duration-300 transform hover:scale-105
                          shadow-lg hover:shadow-xl animate-fadeIn delay-50"
