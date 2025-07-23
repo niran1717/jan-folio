@@ -1,6 +1,6 @@
 // src/components/Contact.jsx
 import React from 'react';
-import handshake from '../assets/png/handshake.png'; // Make sure this path is correct!
+import handshake from '../assets/png/Handshake.png'; // Make sure this path is correct!
 
 function Contact() {
   return (
