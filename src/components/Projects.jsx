@@ -1,6 +1,7 @@
 // src/components/Projects.jsx
 import React from 'react';
 import img1 from '../assets/png/image3.png';
+import img2 from '../assets/png/Demo.png';
 import img4 from '../assets/png/Pic1.gif'
 import img5 from '../assets/png/image4.png'
 import img6 from '../assets/png/mpe_simple_spread.gif'
@@ -15,46 +16,53 @@ const projects = [
     id: 1,
     title: "Data-driven Decision-making in Autonomous Vehicles using LLMs",
     description: "Developed a modular pipeline using LLaMA 2-7B to enable real-time, risk-aware decision-making in autonomous vehicles. Processed over 200,000 driving scenarios from the Argoverse 2 dataset and extracted 2 million+ feature frames for analysis. Implemented few-shot prompting and a reflection module to revise decisions in 35% of ambiguous cases. Fine-tuned on 2,000+ annotated samples from the Waymo Open Motion Dataset, achieving an 18% improvement in edge case reasoning.",
-    link: "https://github.com/niran1717/LLM_Framework_Autonomous_Vehicles.git", // Replace with actual project link
+    link: "https://github.com/niran1717/LLM_Framework_Autonomous_Vehicles.git", 
     imageUrl: img1 // Placeholder
   },
   {
     id: 2,
+    title: 'InterviewReady AI: An Edge-Optimized LLM for Tech Interview Prep',
+    description: 'Developed an AI tutor using QLoRA fine-tuning Llama 2-7B to generate personalized questions, hints, and explanations. Optimized the fine-tuned model via GGUF conversion and 4-bit quantization, reducing model size by 70% for efficient local CPU/iGPU inference. Implemented an interactive Streamlit UI for seamless user interaction.',
+    link: 'https://github.com/niran1717/InterviewReadyAI.git',
+    imageUrl: img2
+},
+  {
+    id: 3,
     title: 'Deep Reinforcement Learning for Autonomous Driving',
     description: 'Designed and implemented a deep reinforcement learning model using DQN and CNN to train an autonomous driving agent in the CarRacing-v2 simulation environment. Utilized a replay buffer of 100,000 experiences and a decaying epsilon-greedy policy. Achieved a 45% improvement in average rewards over the baseline and a 95% track completion rate, demonstrating enhanced policy learning and control stability.',
     link: 'https://github.com/niran1717/CarRacing-v2-Epsilon-Greedy.git',
     imageUrl: img4
 },
 {
-    id: 3,
+    id: 4,
     title: 'LiDAR-Based 3D Object Detection for Cooperative Perception',
     description: 'Built a 3D object detection pipeline using the PointPillar architecture to process LiDAR data from the TUMTraf-V2X Cooperative Perception Dataset. Engineered data preprocessing and target assignment modules for vehicle-only, infrastructure-only, and cooperative modes. Demonstrated up to 20% improvement in mAP through cooperative LiDAR fusion. Performance validated using BEV visualizations and benchmarked with Precision, Recall, and IoU.',
     link: 'https://github.com/niran1717/Cooperative_Perception_V2X.git',
     imageUrl: img5
 },
 {
-    id: 4,
+    id: 5,
     title: 'Multi-Agent Policy Learning using MADDPG',
     description: 'Developed a cooperative multi-agent learning framework using Multi-Agent Deep Deterministic Policy Gradient (MADDPG) in PyTorch with OpenAI Gym environments. Achieved 38% improvement in policy stability and an 84% success rate in coordinated tasks, outperforming baseline reinforcement learning methods in cooperative multi-agent scenarios.',
     link: 'https://github.com/niran1717/Multi-Agent-Deep-Deterministic-Policy-Gradient-MADDPG-for-Cooperative-Multi-Agent-Learning.git',
     imageUrl: img6
 },
 {
-    id: 5,
+    id: 6,
     title: 'AI Customer Service Chatbot - AWS',
     description: 'Fully serverless, intelligent customer service assistant built entirely on AWS services, leveraging Amazon Bedrock, Lambda, DynamoDB, API Gateway, and more. fully serverless, intelligent customer service assistant built entirely on AWS services, leveraging Amazon Bedrock, Lambda, DynamoDB, API Gateway, and more.',
     link: 'https://github.com/niran1717/AI_Customer_Chatbot.git',
     imageUrl: img9
 },
 {
-    id: 6,
+    id: 7,
     title: 'Silent Scalper - AWS',
     description: 'Silent Scalper is a fully serverless, event-driven architecture built on AWS to automate the validation, classification, and storage of uploaded job files. It provides instant scalability, eliminates idle compute costs, and ensures fault tolerance using modern AWS services like Lambda, API Gateway, S3, DynamoDB, CloudWatch, and SNS.',
     link: 'https://github.com/niran1717/Silent_Scalper_AWS.git',
     imageUrl: img7
 },
 {
-    id: 7,
+    id: 8,
     title: 'Smart Vault Backup Engine - AWS',
     description: 'Smart Vault is a tool to automatically create and manage EBS snapshots for EC2 instances that are tagged for backup, while ensuring storage efficiency, monitoring, and fault alerts.',
     link: 'https://github.com/niran1717/Smart_Vault_AWS.git',
@@ -62,7 +70,7 @@ const projects = [
 },
 
 {
-    id: 8,
+    id: 9,
     title: 'Intelligent Document Engine - AWS',
     description: 'AI-powered document understanding system built entirely on AWS. This project transforms unstructured documents into searchable, structured, and analyzable content using serverless architecture, machine learning, and natural language processing.',
     link: 'https://github.com/niran1717/Intelligent_Document_Engine_AWS.git',
