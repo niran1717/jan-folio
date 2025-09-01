@@ -50,7 +50,7 @@ const projects = [
 {
     id: 6,
     title: 'AI Customer Service Chatbot - AWS',
-    description: 'Fully serverless, intelligent customer service assistant built entirely on AWS services, leveraging Amazon Bedrock, Lambda, DynamoDB, API Gateway, and more. fully serverless, intelligent customer service assistant built entirely on AWS services, leveraging Amazon Bedrock, Lambda, DynamoDB, API Gateway, and more.',
+    description: 'Fully serverless, intelligent customer service assistant built entirely on AWS services, leveraging Amazon Bedrock, Lambda, DynamoDB, API Gateway, and more.',
     link: 'https://github.com/niran1717/AI_Customer_Chatbot.git',
     imageUrl: img9
 },
