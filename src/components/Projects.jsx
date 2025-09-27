@@ -1,7 +1,7 @@
 // src/components/Projects.jsx
 import React from 'react';
 import img1 from '../assets/png/image3.png';
-import img2 from '../assets/png/Demo.png';
+import img2 from '../assets/png/StudyAI_Demo.png';
 import img4 from '../assets/png/Pic1.gif'
 import img5 from '../assets/png/image4.png'
 import img6 from '../assets/png/mpe_simple_spread.gif'
