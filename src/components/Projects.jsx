@@ -21,9 +21,9 @@ const projects = [
   },
   {
     id: 2,
-    title: 'InterviewReady AI: An Edge-Optimized LLM for Tech Interview Prep',
-    description: 'Developed an AI tutor using QLoRA fine-tuning Llama 2-7B to generate personalized questions, hints, and explanations. Optimized the fine-tuned model via GGUF conversion and 4-bit quantization, reducing model size by 70% for efficient local CPU/iGPU inference. Implemented an interactive Streamlit UI for seamless user interaction.',
-    link: 'https://github.com/niran1717/InterviewReadyAI.git',
+    title: 'Retrieval-Augmented LLM Study Assistant',
+    description: 'This project is a Groq/LangChain Retrieval-Augmented Generation (RAG) System that builds a personalized, ephemeral knowledge base for on-demand Q&A. The Streamlit front-end allows users to upload PDFs, which are then processed by LangChain and embedded into an in-memory ChromaDB vector store. The system uses semantic search to retrieve relevant document chunks, which are fed to the LLaMA 3-70B model via the high-speed Groq API to generate accurate, contextual answers. Crucially, the in-session memory ensures the entire knowledge base is cleared after the user closes the browser, making the tool secure, private, and immediately ready for a new set of documents.',
+    link: 'https://github.com/niran1717/AI_Study_Assistant.git',
     imageUrl: img2
 },
   {
